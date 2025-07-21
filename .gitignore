@@ -1,0 +1,121 @@
+# Proyecto: Clasificación de Personajes de Los Simpsons - KNN vs SVM
+# Archivo .gitignore para excluir archivos innecesarios del control de versiones
+
+# =============================================================================
+# ARCHIVOS PDF - Documentos generados
+# =============================================================================
+*.pdf
+*.PDF
+
+# =============================================================================
+# ENTORNOS PYTHON Y ANACONDA
+# =============================================================================
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Conda environments
+.conda/
+conda-meta/
+
+# =============================================================================
+# JUPYTER NOTEBOOK
+# =============================================================================
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Archivos temporales de Jupyter
+.jupyter/
+*.ipynb_temp
+
+# =============================================================================
+# PYTHON - Archivos compilados y cache
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =============================================================================
+# ARCHIVOS TEMPORALES Y LOGS
+# =============================================================================
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# =============================================================================
+# ARCHIVOS DE RESULTADOS ESPECÍFICOS DEL PROYECTO
+# =============================================================================
+# Modelos entrenados (si se generan)
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Archivos de cache de matplotlib
+*.png~
+*.jpg~
+
+# =============================================================================
+# HERRAMIENTAS DE DESARROLLO
+# =============================================================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+
+# =============================================================================
+# ARCHIVOS DE CONFIGURACIÓN LOCAL
+# =============================================================================
+# Variables de entorno locales
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuraciones específicas del usuario
+config.local.py
+settings.local.py
+
+# =============================================================================
+# ARCHIVOS DE BACKUP
+# =============================================================================
+*.bak
+*.backup
+*~
+
+# =============================================================================
+# NOTAS PERSONALES (opcional)
+# =============================================================================
+# Descomenta si quieres excluir notas personales
+# notas.md
+# TODO.md
+# drafts/
