@@ -324,13 +324,18 @@ RGB: 78% → HSV: 75% → LBP: 66% → HSV+LBP: 74%
 ## 6. Análisis de Matrices de Confusión: Patrones de Error KNN vs SVM
 
 ### 6.1 Evolución de Patrones de Error por Método de Features
-
+#### Matriz de Confusion Modelo RGB 
 ![Matriz de Confusión RGB - Comparativa](output/rgb_knn_confussion_matrix_val.png)
 ![Matriz de Confusión RGB - SVM](output/rgb_svm_confussion_matrix_val.png)
 
+#### Matriz de Confusion Modelo HSV
 ![Matriz de Confusión HSV - Comparativa](output/hsv_knn_confussion_matrix_val.png)
 ![Matriz de Confusión HSV - SVM](output/hsv_svm_confussion_matrix_val.png)
 
+#### Matriz de Confusion Modelo LBP
+![Matriz de Confusión HSV - SVM](output/lbp_comparisson_confussion_matrix_val.png)
+
+#### Matriz de Confusion Modelo LBP+HSV
 ![Comparación Final HSV+LBP - Validación](output/lbp_hsv_svm_vs_knn_confussion_matrix_val.png)
 
 #### 6.1.1 Análisis de Errores Sistemáticos por Algoritmo
